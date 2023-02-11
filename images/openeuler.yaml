@@ -361,7 +361,7 @@ actions:
   types:
   - vm
 
-# workaround for https://discuss.linuxcontainers.org/t/help-needed-failed-to-launch-the-lxd-container/15674/6
+# workaround for https://discuss.linuxcontainers.org/t/help-needed-failed-to-launch-the-lxd-container/15674/6 
 - trigger: post-files
   action: |-
     #!/bin/sh
